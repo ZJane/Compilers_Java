@@ -15,7 +15,8 @@ Learn Compilers through creating a compiler for java
     l5注释符
 ## 词法分析器
     词法单元划分表,例如
-    | 词素||  词法单元  |属性值
+    | 词素 |  词法单元  |属性值|
+    |------|-----------|-----|
     |100 |number(int)|整数值
     |return|return|
     |if|if|不需要保留字的属性值
