@@ -18,7 +18,8 @@ Learn Compilers through creating a compiler for java
     读入词素输入流,建立缓冲区,缓冲区中维护两个指针,一个指向当前词素的开始处(lexemeBegin),
     一个向前扫描词素的指针(forward),该指针的算法如下:
   
-``` ``java``(伪代码)
+``` 
+``java``(伪代码)
        switch(*forward){
          case eof:
                 if(forward在第一个缓冲区的末尾处){
@@ -36,7 +37,6 @@ Learn Compilers through creating a compiler for java
                 
                 break;
                 若其他字符(forward!=eof)情况
-       }
-       
+       }       
 ```
     
