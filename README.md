@@ -27,7 +27,7 @@ Learn Compilers through creating a compiler for java
     <return>
     <number,2>
     
-    读入词素输入流,建立缓冲区,缓冲区中维护两个指针,一个指向当前词素的开始处(lexemeBegin),
+    (参考编译原理龙书第二版第72页,3页)读入词素输入流,建立缓冲区,缓冲区中维护两个指针,一个指向当前词素的开始处(lexemeBegin),
     一个向前扫描词素的指针(forward),该指针的算法如下:
   
 ``` 
