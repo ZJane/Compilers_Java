@@ -8,7 +8,7 @@ Learn Compilers through creating a compiler for java
 ### @Java语言介绍
 
 ### java语言要素
-#### l1保留字
+####   l1保留字
     java中共有50个保留字
     import,package,class,abstract,extends,implements,
     private,protected,public,synchronized,transient,volatile,
@@ -17,10 +17,19 @@ Learn Compilers through creating a compiler for java
     byte,int,boolean,char,double,float,long,short,
     case,switch,catch,continue,do,else,for,if,while
     false,true, break,
-    
-####    l2标识符
-####    l3常量
+   
+####    l2标识符
+    令L={a,b,c,d,...A,B,C,D...},D={0,1,2,3,4,5,6,7,8,9}
+    则L(LUD)*表示由字母开头的,字母和数字组成的串的集合,此集合
+    等同于java中的标识符(id)
+###    l3常量a
+    constant,包括数值  量,整型,浮点型,字节,等.(包括逻辑常量:false和true),f字符常量'a'等
+
 ####    l4运算符
+     <  >   <= >=   + - *  /   ! &  !=  ||  |  >>  <<   -- ++   +=    %  ^
+     标点符号:   "  "   {  }  [   ]   ,  '   '
+     
+     
 ####    l5注释符
 ## 词法分析器
     词法单元划分表,例如
