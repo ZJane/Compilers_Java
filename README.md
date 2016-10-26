@@ -15,6 +15,17 @@ Learn Compilers through creating a compiler for java
     l5注释符
 ## 词法分析器
     词法单元划分表,例如
+    | 词素||  词法单元  |属性值
+    |100 |number(int)|整数值
+    |return|return|
+    |if|if|不需要保留字的属性值
+    |float|float|
+    |=|assign_op(赋值号)|
+    |lexer|id(标识符)|指向符号表中lexer的 指针
+    
+    
+    
+    
     读入词素输入流,建立缓冲区,缓冲区中维护两个指针,一个指向当前词素的开始处(lexemeBegin),
     一个向前扫描词素的指针(forward),该指针的算法如下:
   
