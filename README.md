@@ -9,6 +9,16 @@ Learn Compilers through creating a compiler for java
 
 ### java语言要素
     l1保留字
+
+    java中共有50个保留字
+    import,package,class,abstract,extends,implements,
+    private,protected,public,synchronized,transient,volatile,
+    new,super,this,throw,throws,try,static,void,default,
+    final,finally,return,native,instanceof,null,
+    byte,int,boolean,char,double,float,long,short,
+    case,switch,catch,continue,do,else,for,if,while
+    false,true, break,
+    
     l2标识符
     l3常量
     l4运算符
